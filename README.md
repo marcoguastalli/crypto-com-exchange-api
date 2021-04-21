@@ -60,6 +60,11 @@ Enter project root directory:
 
 ##### Run #####
 1. Enter the project root directory:
-   `python3 main.py`
+   `python3 app_cdc_account.py`
 
-2. Enjoy it :)
+2. You should see something like:
+   ```
+   Reading account from API url 'https://api.crypto.com/v2/private/get-account-summary' at '2021-04-21 09:27:27'
+   API Response '200' - 'OK'
+   API accounts total balance is x.yz USDT
+   ```
