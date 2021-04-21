@@ -12,10 +12,11 @@ Read account information from crypto.com exchange API
 ##### Requirements #####
 - https://www.python.org/downloads/
 
-1. python3 installed
-`python3 -v`
-2. pip installed
-`python3 -m pip --version`
+1. python3 installed:
+   `python3 -v`
+2. pip installed:
+   `python3 -m pip --version`
+
 3. python Virtual Environment installed
     - Ubuntu/Debian
         - sudo apt-get update
@@ -33,25 +34,26 @@ Enter project root directory:
 - Follow this link to generate the API Key
     - https://exchange-docs.crypto.com/spot/index.html#generating-the-api-key
 
-2. Create a Python Virtual Environment
-`python3 -m venv env`
+2. Create a Python Virtual Environment:
+   `python3 -m venv env`
    
-3. Activate the Virtual Environment
-`source ./env/bin/activate`
+3. Activate the Virtual Environment:
+   `source ./env/bin/activate`
    
     - your console should change adding `(env)` as prefix
     - To exit type refer to 'Deactivate the Virtual Environment'
    
-4. Install dependencies
-`pip3 install -r requirements.txt`
+4. Install dependencies:
+   `pip3 install -r requirements.txt`
    
     Ignore warning messages.
 
-5. Deactivate the Virtual Environment
-`deactivate`
-    - the `(env)` prefix should be removed from the console
+5. Deactivate the Virtual Environment:
+   `deactivate`
+   - the `(env)` prefix should be removed from the console
 
 ##### Run #####
-1- Enter the project root directory:
-`python3 main.py`
+1. Enter the project root directory:
+   `python3 main.py`
 
+2. Enjoy it :)
