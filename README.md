@@ -15,6 +15,7 @@ Read account information from crypto.com exchange API
 1. python3 installed:
    
    `python3 -v`
+   
 2. pip installed:
    
    `python3 -m pip --version`
@@ -59,12 +60,20 @@ Enter project root directory:
    - the `(env)` prefix should be removed from the console
 
 ##### Run #####
-1. Enter the project root directory:
+Enter project root directory:
+1. Activate the Virtual Environment:
+
+    `source ./env/bin/activate`
+
+1. Run the script:
+
    `python3 app_cdc_account.py`
 
-2. You should see something like:
+3. You should see something like:
    ```
-   Reading account from API url 'https://api.crypto.com/v2/private/get-account-summary' at '2021-04-21 09:27:27'
+   Reading account from API url 'https://api.crypto.com/v2/private/get-account-summary' at 'YYYY-MM-DD HH:MM:SS'
    API Response '200' - 'OK'
-   API accounts total balance is x.yz USDT
+   
+   The balance for currency 'CRO' is 1.00000000, the balance for pair 'CRO_USDT' in USDT is: 0.21000000
+   The total balance for the account is 0.21000000 USDT
    ```
